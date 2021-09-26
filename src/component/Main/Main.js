@@ -4,9 +4,12 @@ import Cart from '../Cart/Cart';
 import './Main.css';
 
 const Main = () => {
+    // load data to developer section UI 
     const [developers, setDevelopers] = useState([]);
+    // Load person(developer) to cart section ui 
     const [persons, setPerons] = useState([]);
 
+    // Load fake data form api 
     useEffect(() => {
         fetch('./fakedata.json')
             .then(res => res.json())
@@ -16,6 +19,7 @@ const Main = () => {
             });
     }, [])
 
+    // Add to cart botton event handler 
     const addToCartHandle = (developer) => {
         const newArray = [...persons];
         if (!persons.find(person => person.name === developer.name)) {
@@ -43,7 +47,6 @@ const Main = () => {
             {/* Cart Section*/}
             <div className="cart-container">
                 <Cart persons={persons}></Cart>
-
             </div>
         </div>
     );

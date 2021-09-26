@@ -8,9 +8,11 @@ const DeveloperUnderCart = (props) => {
         <div className="developerUnderCart">
             <div className="card mb-3" >
                 <div className="row g-0">
+                    {/* image */}
                     <div className="col-md-4">
                         <img src={img} className="img-fluid rounded-start" alt="..." />
                     </div>
+                    {/* info  */}
                     <div className="col-md-8">
                         <div className="card-body">
                             <h6 className="card-text">{name}</h6>
