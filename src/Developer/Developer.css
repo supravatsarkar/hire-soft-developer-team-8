@@ -1,0 +1,9 @@
+.developer{
+    border: 1px solid gray;
+    text-align: center;
+}
+.developer img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}

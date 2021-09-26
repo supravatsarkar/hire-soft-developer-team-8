@@ -1,0 +1,15 @@
+.main{
+    /* color: white; */
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-top: 10px;
+}
+.developers-container{
+    /* border:2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.cart-container{
+    border:2px solid black;
+}
