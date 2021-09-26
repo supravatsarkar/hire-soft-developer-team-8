@@ -11,6 +11,6 @@
     grid-gap: 20px;
 }
 .cart-container{
-    border:2px solid yellow;
-    margin-left: 8px;
+    /* border:2px solid yellow; */
+    margin-left: 15px;
 }
