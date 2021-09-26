@@ -1,6 +1,8 @@
 .developer{
     border: 1px solid gray;
     text-align: center;
+    padding: 5px;
+    
 }
 .developer img{
     border-radius: 50%;
