@@ -1,5 +1,5 @@
 ## Assignment-8
-# Name of Project: Hire Developers To Create Products
+# Name of Project: Hire Software Developers To Create Products
 - About Project:
     * Here you can show software developer profile for hire there to build a product like amazone, flipcart, Uber, Ebay, Paytm. 
     * Add to cart developer to hire them

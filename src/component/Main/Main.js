@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Developer from '../../Developer/Developer';
+import Developer from '../Developer/Developer';
 import Cart from '../Cart/Cart';
 import './Main.css';
 
