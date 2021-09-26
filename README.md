@@ -1,4 +1,23 @@
-# Getting Started with Create React App
+## Assignment-8
+# Name of Project: Hire Developers To Create Products
+- About Project:
+    * Here you can show software developer profile for hire there to build a product like amazone, flipcart, Uber, Ebay, Paytm. 
+    * Add to cart developer to hire them
+
+- What's technology use for this project?
+    * Mainly React, Bootstrap, Plan CSS, JSX
+    * For icon I use fontawasome.
+
+- How I create this projec?
+    1. First I Create a fake json file of developers for fecthing data like as an api & use it from public folder.
+    2. Then I fetch data form api by useEffect() and diplaying with useState();
+    3. For display developer profile I use css grid.
+    4. For add developers Use button & onClick evenet litainer.
+    5. Add developer profile for hire showing thiar total hireing amount and how many item selected.
+    5. After add develers array I show thier image, name, salary to cart.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
