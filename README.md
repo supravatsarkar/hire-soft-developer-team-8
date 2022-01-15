@@ -1,5 +1,6 @@
 ## Assignment-8
 # Name of Project: Hire Software Developers To Create Products
+### Live site link:- https://hire-developer-team-assignment-8.netlify.app/
 - About Project:
     * Here you can show software developer profile for hire there to build a product like amazone, flipcart, Uber, Ebay, Paytm. 
     * Add to cart developer to hire them
